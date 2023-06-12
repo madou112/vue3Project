@@ -67,31 +67,6 @@ const routes = [
         name: 'admin',
         component: LayoutAdmin,
         children: [
-            {
-                path: '',
-                name: 'admin-index',
-                component: () => import('@/views/admin/index.vue')
-            },
-            {
-                path: 'info',
-                name: 'admin-info',
-                component: () => import('@/views/admin/info.vue')
-            },
-            {
-                path: 'logout',
-                name: 'admin-logout',
-                component: () => import('@/views/admin/logout.vue')
-            }, {
-                path: 'changepassword',
-                name: 'admin-changepassword',
-                component: () => import('@/views/admin/changepassword.vue')
-            },
-            {
-                path: 'forgetpassword',
-                name: 'admin-forgetpassword',
-                component: () => import('@/views/admin/forgetpassword.vue')
-            }
-
         ]
     },
 
