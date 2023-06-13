@@ -146,7 +146,7 @@ canvas{
 
 .login-form {
     width: 300px;
-    height: 400px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     box-shadow: var(--el-box-shadow)
