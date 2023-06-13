@@ -15,10 +15,7 @@
         <!-- <div>数量{{userStore.count}}</div>
     <button @click="userStore.increat">count++</button> -->
         <div class="login-form">
-            <div class="login-form-logo">
-                <el-image :src="src" fit="fill" :lazy="true"></el-image>
-            </div>
-
+        
             <el-form ref="ruleFormRef" :model="userForm" status-icon :rules="rules" class="login-ruleForm">
                 <el-form-item prop="email">
                     <el-input v-model="userForm.email" autocomplete="off" placeholder="请输入你的用户邮箱" suffix-icon="Message" />
